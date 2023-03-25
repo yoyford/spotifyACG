@@ -1,0 +1,100 @@
+body{
+    background-color: #363636;
+}
+.title{
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+}
+.container{
+    
+
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+
+    
+}
+.list a{
+    font-size: 19px;
+    
+}
+.list a:hover{
+    color: red;
+}
+.navbar ul{
+    list-style: none;
+    
+    
+}
+.navbar ul li{
+    margin-top: 16px;
+    margin-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 90px;
+    
+}
+.spot{
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+}
+.area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#outputArea{
+    width: 500x;
+    height: 150px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#phpButton{
+    padding: 14px;
+    background: rgb(106, 219, 106);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+footer a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+footer a:hover{
+    color: rgb(87, 174, 231);
+}
+@media (max-width: 768px){
+    .title{
+        font-size: 21px;
+}
+    .spot{
+        width: 40px;
+        height: 40px;
+    }
+    .navbar{
+        width: auto;
+    }
+}
