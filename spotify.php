@@ -22,6 +22,10 @@ $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+# PROXY START #
+curl_setopt($curl, CURLOPT_PROXY, "127.0.0.1");
+curl_setopt($curl, CURLOPT_PROXYPORT, "8080");
+# PROXY END #
 $headers = array(
     "sec-ch-ua: \"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\"",
     "sec-ch-ua-mobile: ?0",
