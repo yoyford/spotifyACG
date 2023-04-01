@@ -14,6 +14,9 @@ body{
     margin: 40px;
     
 }
+.navbar{
+    max-width: 1200px;
+}
 .navbar a{
     color: rgb(255, 255, 255);
 	text-align: center;
@@ -28,7 +31,8 @@ body{
     list-style: none;
 }
 .about{
-    font-weight: 500;
+    font-weight: bold;
+    font-family: Montserrat,sans-serif;
 }
 .spot{
     width: 37px;
@@ -39,6 +43,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    max-width: 900px;
 }
 #outputArea{
     width: 500x;
@@ -83,7 +88,7 @@ footer a:hover{
     .spot{
         width: 35px;
         height: 35px;  
-        margin-left: -27px; 
+        margin-left: -41px; 
 }
     .navbar a{
         font-size: 18px;
