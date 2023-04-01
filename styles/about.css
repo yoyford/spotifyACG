@@ -1,0 +1,45 @@
+body{
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    
+}
+
+.about{
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px;
+}
+.h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+}
+.about p{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .about {
+        padding: 15px;
+    }
+    .h1 {
+        font-size: 20px;
+    }
+    .p {
+        font-size: 14px;
+    }
+}
