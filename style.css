@@ -43,7 +43,6 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    max-width: 900px;
 }
 #outputArea{
     width: 500x;
